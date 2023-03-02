@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.todaydate = this.myservice.showTodayDate();
     console.log(this.myservice.serviceproperty);
-    this.myservice.serviceproperty = 'component created';
+    this.myservice.serviceproperty = 'component created by Kisses';
     this.componentproperty = this.myservice.serviceproperty;
   }
 }
